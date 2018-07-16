@@ -74,14 +74,14 @@ due istanze di uno stesso pattern (ad esempio applicate a problemi diversi) tipi
 
 ---
 
-# Cosa fornisce un design pattern al progettista software?
+## Cosa fornisce un design pattern al progettista software?
 
 + Una soluzione codificata e consolidata per un problema ricorrente
 + Un'astrazione di granualità e livello di astrazione più elevati di una classe
 
 ---
 
-# Cosa fornisce un design pattern al progettista software?
+## Cosa fornisce un design pattern al progettista software?
 
 + Un supporto alla comunicazione delle caratteristiche del progetto
 + Un modo per progettare software con caratteristiche predefinite
