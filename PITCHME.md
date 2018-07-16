@@ -33,6 +33,7 @@ https://github.com/simon387/structural-patterns-presentation
 # un po' di storia
 
 + Introdotti dall'architetto Christopher Alexander. Architetto edile, non software!
+
 > "Ogni pattern descrive un problema che si presenta ferquentemente, e quindi descrive il nucleo della soluzione così che si possa impiegarla milioni di volte, senza produrre due volte la stessa realizzazione"
 
 + Il principio è ugualmente valido, anche se riferito ad oggetti, classi ed interfacce piuttosto che ad elementi architettonici come muri, archi, pilastri, ecc... .
