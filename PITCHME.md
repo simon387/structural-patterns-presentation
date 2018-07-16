@@ -1,6 +1,6 @@
 # design patterns strutturali
 
-2018 07 19
+Thinkopen Academy 2018 07 19
 
 ---
 
@@ -121,12 +121,50 @@ gli aspetti chiave di una struttura comune di design che la rendono utile nel co
 
 ## caratteristiche
 
-Un Design Pattern identifica
+Un Design Pattern identifica:
 
 + le classi (e le istante) partecipanti
 + le associazioni ed i ruoli
 + le modalità di collaborazione tra le classi coinvolte
 + la distribuzione delle responsabilità nella soluzione del particolare problema di design considerato
+
+---
+
+## tipologie di pattern
+
+Esistono diverse tipologie di pattern, che si differenziano principalmente per la scala ed il livello di astrazione:
+
+1. Architectural Pattern
+2. **Design Pattern**
+3. Idioms
+
+---
+
+## architectural pattern
+
++ Utili per strutturare un sistema in sottosistemi
+
+---
+
+## Design Pattern
+
++ Operano essenzialmente a livello di un singolo sottosistema evidenziando le carattersistiche delle classi coinvolte e delle associazioni tra class
+
+---
+
+## Idioms
+
++ Utili per l'implementazione di specifici aspetti di design in un particolare linguaggio di programmazione
++ *Common Practice*
+
+---
+
+## come sono fatti i design patterns
+
++ nome
++ problema
++ soluzione
++ conseguenze
 
 ---
 
