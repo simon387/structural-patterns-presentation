@@ -105,7 +105,7 @@ In modo da poter essere condivisi da progettisti con punti di vista diversi e ch
 
 ---
 
-## non complessi né domain-specific
+## né complessi né domain-specific
 
 Non sono rivolti alla specifica applicazione ma riusabili in parti di applicazioni diverse
 
@@ -169,6 +169,43 @@ Esistono diverse tipologie di pattern, che si differenziano principalmente per l
 + problema
 + soluzione
 + conseguenze
+
+---
+
+## nome
+
++ il **nome** del pattern, è utile per descrivere la sua funzionalità in una o due parole.
+
+---
+
+## problema
+
++ il **problema** nel quale il pattern è applicabile. Spiega il problema e il contesto, a volte descrive dei problemi specifici del design mentre a volte può descrivere strutture di classi e oggetti. Può anche includere una lista di condizioni che devono essere soddisfatte precedentemente perchè il pattern possa essere applicato
+
+---
+
+## soluzione
+
++ la **soluzione** che descrive in modo astratto come il pattern risolve il problema. Descrive gli elementi che compongono il design, le loro responsabilità e le collaborazioni
+
+---
+
+## conseguenze
+
++ le **conseguenze** portate dall'applicazione del pattern. Spesso sono tralasciate ma sono importanti per poter valutare i costi-benefici dell'utilizoo del pattern.
+
+---
+
+## esempio descrizione DP
+
++ **Nome e classificazione** del pattern
++ **Sinonimi**: altri nomi del pattern
++ **Scopo**: cosa fa il pattern? a cosa serve?
++ **Motivazione**: scenario che illustra un design problem
++ **Applicabilità**: situazioni in cui si applica il pattern
++ **Struttura**: rappresentazione delle classi in stile OMT
+Note:
+OMT = is an object modeling approach for software modeling and designing [link](https://en.wikipedia.org/wiki/Object-modeling_technique)
 
 ---
 
