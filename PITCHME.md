@@ -43,3 +43,21 @@ https://github.com/simon387/structural-patterns-presentation
 ---
 
 + I design patterns hanno raggiunto molta popolarità nel mondo della **computer science** con il libro *Design Patterns: Elements of Reusable Object-Oriented Software* scritto dalla **Gang of Four**
+
+---
+
+# Pattern
+
+individua un'**IDEA**, uno schema **GENERALE E RIUSABILE**
+
+Non è paragonabile ad un componente riusabile perchè:
+
++ non è un oggetto fisico
++ deve essere contestualizzato all'interno del particolare problema applicativo
+
+due isanze di uno stesso pattern (ad esempio applicate a problemi diversi) tipicamente sono diverse proprio per la contestualizzazione in domini differenti.
+
+---
+
+# Scopo dei Patterns
+
