@@ -71,7 +71,7 @@ due istanze di uno stesso pattern (ad esempio applicate a problemi diversi) tipi
 
 + Catturare l'esperienza e la *saggezza* degli esperti
 + Evitare di reinventare ogni volta le stesse cose
-
+---
 # prova codice
 
 ```java
