@@ -2,5 +2,5 @@
 
 ## preview
 
-you can see these slides on https://gitpitch.com/simon387/structural-patterns-presentation/master?grs=github&t=moon
+you can see these slides on this [link](https://gitpitch.com/simon387/structural-patterns-presentation/master?grs=github)
 
