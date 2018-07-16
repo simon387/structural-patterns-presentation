@@ -443,7 +443,7 @@ Questo disegno è composto da differenti componenti, i quali hanno certe operazi
 
 ### il Composite DP è composto dai seguenti oggetti:
 
-1. Base Component
+#### Base Component
 
 è l'interfaccia (o classe astratta) per tutti gli oggetti della composizione. Il client lo usa per lavorare con gli oggetti della composizione.
 
@@ -451,9 +451,7 @@ Questo disegno è composto da differenti componenti, i quali hanno certe operazi
 
 ### il Composite DP è composto dai seguenti oggetti:
 
-2. Leaf
-Note:
-foglia
+#### Leaf
 
 Definisce il comportamento degli elementi della composizione. E' il building block della composizione ed implementa il Base Component. Non deve avere references agli altri componenti.
 
@@ -461,7 +459,7 @@ Definisce il comportamento degli elementi della composizione. E' il building blo
 
 ### il Composite DP è composto dai seguenti oggetti:
 
-3. Composite
+#### Composite
 
 Consiste di leaf ed implementa le operazioni in base component
 
