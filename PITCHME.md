@@ -361,7 +361,9 @@ Capiamolo meglio con un esempio. Mettiamo di avere questa situazione:
 
 @fa[arrow-down]
 
-+++Applicando il Bridge disaccoppiamo le interfacce dall'implementazione tramite l'uso della composizione.
++++ @title[GFM]
+
+Applicando il Bridge disaccoppiamo le interfacce dall'implementazione tramite l'uso della composizione.
 
 ![](assets/images/bridge-design-pattern.png)
 
