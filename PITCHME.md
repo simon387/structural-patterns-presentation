@@ -304,7 +304,11 @@ abbiamo 2 classi, Volt che misura la tensione e socket che produce una tensione 
 @fa[arrow-down]
 
 +++?code=StructuralPatterns/src/main/java/adapter/Volt.java&lang=java&title=Source: Java File
+@fa[arrow-down]
 
++++?code=StructuralPatterns/src/main/java/adapter/Volt.java&lang=java&title=Source: Java File
+
+Note:
 @[1,3-6](Present code found within any repo source file.)
 @[8-18](Without ever leaving your slideshow.)
 @[19-28](Using GitPitch code-presenting with (optional) annotations.)
