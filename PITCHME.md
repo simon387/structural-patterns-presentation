@@ -207,5 +207,18 @@ Esistono diverse tipologie di pattern, che si differenziano principalmente per l
 Note:
 OMT = is an object modeling approach for software modeling and designing [link](https://en.wikipedia.org/wiki/Object-modeling_technique)
 
++ **Partecipanti**: classi e oggetti inclusi nel pattern
+
+---
+
+## esempio descrizione DP (continua)
+
++ **Collaborazioni**: come i partecipanti collaborano
++ **Conseguenze**: come consegue i suoi obiettivi il pattern?
++ **Implementazione**: che tecniche di codifica sono necessarie?
++ **Codice di esempio**: scritto in un linguaggio ad oggetti
++ **Usi noti**: esempi d'applicazione del pattern in sistemi reali
++ **Pattern correlati**: con quali pattern si dovrebbe usare?
+
 ---
 
