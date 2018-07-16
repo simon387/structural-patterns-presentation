@@ -276,6 +276,11 @@ la vedrete domani ¯\\_(ツ)_/¯
 | Composite     | Compone oggetti in strutture ad albero per implementare delle composizioni ricorsive|
 | Decorator     | Aggiunge nuove responsabilità ad un oggetto in modo dinamico, è alternativa alle sottoclassi per estendere le funzionalità|
 | Facade        | Provvede un'interfaccia unificata per le interfacce di un sottosistema in modo da rendere più facile il loro utilizzo|
+
+---
+
+|DP | Descrizione |
+| :------------ | :---------- |
 | Proxy         | Provvede un surrogato di un oggetto per controllarne gli accessi|
 | Flyweight     | Usa la condivisione per supportare in modo efficiente un gran numero di oggetti con fine granualità|
 
