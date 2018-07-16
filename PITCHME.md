@@ -268,6 +268,9 @@ la vedrete domani ¯\\_(ツ)_/¯
 | :-----------: | :---------- |
 | Adapter       | Converte l'interfaccia di una classe in un'altra permettendo a due classi di lavorare assieme anche se hanno interfacce diverse|
 | Bridge        | Disaccoppia un'astrazione dalla sua implementazione in modo che possano variare in modi indipendente|
+
+---
+
 | Composite     | Compone oggetti in strutture ad albero per implementare delle composizioni ricorsive|
 | Decorator     | Aggiunge nuove responsabilità ad un oggetto in modo dinamico, è alternativa alle sottoclassi per estendere le funzionalità|
 | Facade        | Provvede un'interfaccia unificata per le interfacce di un sottosistema in modo da rendere più facile il loro utilizzo|
