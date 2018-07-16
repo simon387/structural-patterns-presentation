@@ -6,7 +6,7 @@
 
 ## chi sono
 
-Simone Celia, lavoro nell'ambito della consulenza informatica da 5 anni, in Thinkopen da 2
+Simone Celia, FullStack Java Developer, lavoro nell'ambito della consulenza informatica da 5 anni, in Thinkopen da 2
 
 ---
 
@@ -26,7 +26,7 @@ Simone Celia, lavoro nell'ambito della consulenza informatica da 5 anni, in Thin
 
 ---
 
-## iniziamo!
+# iniziamo!
 
 ---
 
@@ -118,3 +118,15 @@ Un Design Pattern
 gli aspetti chiave di una struttura comune di design che la rendono utile nel contesto del riuso in ambito object-oriented
 
 ---
+
+## caratteristiche
+
+Un Design Pattern identifica
+
++ le classi (e le istante) partecipanti
++ le associazioni ed i ruoli
++ le modalità di collaborazione tra le classi coinvolte
++ la distribuzione delle responsabilità nella soluzione del particolare problema di design considerato
+
+---
+
