@@ -1,6 +1,6 @@
 # design patterns strutturali
 
-Thinkopen Academy 2018 07 19
+Thinkopen Academy 2018-07-19
 
 ---
 
