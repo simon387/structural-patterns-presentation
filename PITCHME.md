@@ -376,6 +376,8 @@ Applicando il Bridge disaccoppiamo le interfacce dall'implementazione tramite l'
 ![](assets/images/bridge-design-pattern.png)
 Note:
 Color, 
+GreenColor,
+RedColor,
 Shape,
 Triangle,
 Pentagon,
@@ -386,6 +388,14 @@ BridgePatternTest
 ## Bridge: Java code
 
 +++?code=StructuralPatterns/src/main/java/bridge/Color.java&lang=java&title=Color.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/bridge/GreenColor.java&lang=java&title=GreenColor.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/bridge/RedColor.java&lang=java&title=RedColor.java
 
 @fa[arrow-down]
 
