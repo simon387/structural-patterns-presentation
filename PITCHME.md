@@ -286,3 +286,27 @@ la vedrete domani ¯\\_(ツ)_/¯
 
 ---
 
+## Adapter
+
++ è usato per far lavorare assieme interfacce non correlate.
++ l'oggetto che unisce queste interfacce è chiamato **Adapter**
+
+---
+
+## Adapter
+
+Un esempio di Adapter nel mondo reale potrebbe essere quello dei carica batterie per cellulare.
+Una batteria potrebbe avere bisogno di 3 Volt per caricarsi mentre la normale presa di corrente ne ha 220.
+Quindi il carica batterie fa da *Adapter* tra la presa di corrente e la batteria.
+Note:
+abbiamo 2 classi, Volt che misura la tensione e socket che produce una tensione costante di 240v
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/adapter/Volt.java&lang=java&title=Source: Java File
+
+@[1,3-6](Present code found within any repo source file.)
+@[8-18](Without ever leaving your slideshow.)
+@[19-28](Using GitPitch code-presenting with (optional) annotations.)
+
+---
