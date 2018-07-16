@@ -12,15 +12,15 @@ Simone Celia, lavoro nell'ambito della consulenza informatica da 5 anni, in Thin
 
 # dove trovare queste slide
 
-https://github.com/simon387/structural-patterns-presentation
+[https://github.com/simon387/structural-patterns-presentation](https://github.com/simon387/structural-patterns-presentation)
 
 ---
 
 # riferimenti
 
 + Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, “Design Patterns: Elements of Reusable Object Oriented Software“.
-+ https://www.docenti.unina.it/webdocenti-be/allegati/materiale-didattico/98381
-+ https://www.journaldev.com
++ [https://www.docenti.unina.it/webdocenti-be/allegati/materiale-didattico/98381](https://www.docenti.unina.it/webdocenti-be/allegati/materiale-didattico/98381)
++ [https://www.journaldev.com](https://www.journaldev.com)
 + wikipedia
 + stackoverflow
 
@@ -63,9 +63,13 @@ Non è paragonabile ad un componente riusabile perchè:
 
 # Pattern
 
-due isanze di uno stesso pattern (ad esempio applicate a problemi diversi) tipicamente sono diverse proprio per la contestualizzazione in domini differenti.
+due istanze di uno stesso pattern (ad esempio applicate a problemi diversi) tipicamente sono diverse proprio per la contestualizzazione in domini differenti.
 
 ---
 
 # Scopo dei Patterns
 
++ Catturare l'esperienza e la *saggezza* degli esperti
++ Evitare di reinventare ogni volta le stesse cose
+
+# asd
