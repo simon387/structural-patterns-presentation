@@ -71,12 +71,50 @@ due istanze di uno stesso pattern (ad esempio applicate a problemi diversi) tipi
 
 + Catturare l'esperienza e la *saggezza* degli esperti
 + Evitare di reinventare ogni volta le stesse cose
+
 ---
-# prova codice
 
-```java
-public static void main() {
-	System.out.println("asdasd);
-}
+# Cosa fornisce un design pattern al progettista software?
 
-```
++ Una soluzione codificata e consolidata per un problema ricorrente
++ Un'astrazione di granualità e livello di astrazione più elevati di una classe
+
+---
+
+# Cosa fornisce un design pattern al progettista software?
+
++ Un supporto alla comunicazione delle caratteristiche del progetto
++ Un modo per progettare software con caratteristiche predefinite
++ Un supporto alla progettazione di sistemi complessi
+
+---
+
+# Definizione
+
+Ogni pattern descrive un problema specifico che ricorre più volte e descrive il nucleo della soluzione a quel problema, in modo da poter utilizzare tale soluzione milioni di volte.
+
+---
+
+# Abbastanza astratti
+
+In modo da poter essere condivisi da progettisti con punti di vista diversi e che conoscono tecnologie e linguaggi diversi
+
+---
+
+# non complessi né domain-specific
+
+Non sono rivolti alla specifica applicazione ma riusabili in parti di applicazioni diverse
+
+---
+
+# caratteristiche
+
+Un Design Pattern
+
++ nomina
++ astrae
++ identifica
+
+gli aspetti chiave di una struttura comune di design che la rendono utile nel contesto del riuso in ambito object-oriented
+
+---
