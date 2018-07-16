@@ -361,7 +361,7 @@ Capiamolo meglio con un esempio. Mettiamo di avere questa situazione:
 
 @fa[arrow-down]
 
----
++++
 
 Applicando il Bridge disaccoppiamo le interfacce dall'implementazione tramite l'uso della composizione.
 
