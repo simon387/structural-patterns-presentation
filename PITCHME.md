@@ -248,7 +248,7 @@ la differenza è comunque molto sfumata
 
 ## categoria creational
 
-la vedrete domani ¯\_(ツ)_/¯
+la vedrete domani ¯\\_(ツ)_/¯
 
 ---
 
