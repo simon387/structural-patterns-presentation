@@ -412,3 +412,123 @@ BridgePatternTest
 @fa[arrow-down]
 
 +++?code=StructuralPatterns/src/main/java/bridge/BridgePatternTest.java&lang=java&title=BridgePatternTest.java
+
+---
+
+## Composite
+
+Quando dobbiamo creare una struttura in modo tale che gli oggetti di tale struttura debbano essere trattati allo stesso modo, possiamo applicare il DP composite.
+
+---
+
+## Composite - esempio pratico
+
+Ad esempio un diagramma è un oggetto che consiste di altri oggetti come cerchi, linee, triangoli ecc... .
+
+@fa[arrow-down]
+
++++
+
+Se volessimo riempire tutto il disegno del diagramma diciamo di rosso, lo stesso colore sarà applicato a tutti gli oggetti dell'insieme.
+
+@fa[arrow-down]
+
++++
+
+Questo disegno è composto da differenti componenti, i quali hanno certe operazioni in comune.
+
+@fa[arrow-down]
+
++++
+
+### il Composite DP è composto dai seguenti oggetti:
+
+1. Base Component
+
+è l'interfaccia (o classe astratta) per tutti gli oggetti della composizione. Il client lo usa per lavorare con gli oggetti della composizione.
+
+---
+
+### il Composite DP è composto dai seguenti oggetti:
+
+2. Leaf
+Note:
+foglia
+
+Definisce il comportamento degli elementi della composizione. E' il building block della composizione ed implementa il Base Component. Non deve avere references agli altri componenti.
+
+---
+
+### il Composite DP è composto dai seguenti oggetti:
+
+3. Composite
+
+Consiste di leaf ed implementa le operazioni in base component
+
+---
+
+## Composite - esempio Java
+Note:
+Shape,
+Triangle,
+Circle,
+Drawing,
+TestCompositePattern
+
++++?code=StructuralPatterns/src/main/java/composite/Shape.java&lang=java&title=Shape.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/composite/Triangle.java&lang=java&title=Triangle.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/composite/Circle.java&lang=java&title=Circle.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/composite/Drawing.java&lang=java&title=Drawing.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/composite/TestCompositePattern.java&lang=java&title=TestCompositePattern.java
+
+@fa[arrow-down]
+
+---
+
+## Composite UML
+
+![](assets/images/Composite-Pattern-java-450x354.png)
+
+---
+
+## Composite - conclusioni
+
++ dovrebbe essere utilizzato solo quando il gruppo di oggetti si deve comportare come se fosse una cosa sola
++ può essere usato per comporre strutture ad albero
+
+@fa[arrow-down]
+
++++
+
+java.awt.Container#add(Component) è un ottimo esempio di Composite, è usato moltissimo in Swing
+
+---
+
+## Decorator
+
+---
+
+## Facade
+
+---
+
+## Proxy
+
+---
+
+## Flyweight
+
+---
+
