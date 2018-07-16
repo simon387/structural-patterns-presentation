@@ -333,6 +333,14 @@ Note:
 
 ---
 
+### Adapter diagramma UML
+
+![](assets/images/adapter-pattern-java-class-diagram.png)
+Note:
+class vs object
+
+---
+
 ## Adapter: esempi nella JDK
 
 + java.util.Arrays#asList()
@@ -366,5 +374,31 @@ Capiamolo meglio con un esempio. Mettiamo di avere questa situazione:
 Applicando il Bridge disaccoppiamo le interfacce dall'implementazione tramite l'uso della composizione.
 
 ![](assets/images/bridge-design-pattern.png)
+Note:
+Color, 
+Shape,
+Triangle,
+Pentagon,
+BridgePatternTest
 
 ---
+
+## Bridge: Java code
+
++++?code=StructuralPatterns/src/main/java/bridge/Color.java&lang=java&title=Color.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/bridge/Shape.java&lang=java&title=Shape.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/bridge/Triangle.java&lang=java&title=Triangle.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/bridge/Pentagon.java&lang=java&title=Pentagon.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/bridge/BridgePatternTest.java&lang=java&title=BridgePatternTest.java
