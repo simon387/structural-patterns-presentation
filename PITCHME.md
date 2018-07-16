@@ -48,7 +48,7 @@ Simone Celia, FullStack Java Developer, lavoro nell'ambito della consulenza info
 
 ---
 
-## un po' di storia
+## un po' di storia (continua)
 
 + I design patterns hanno raggiunto molta popolarità nel mondo della **computer science** con il libro *Design Patterns: Elements of Reusable Object-Oriented Software* scritto dalla **Gang of Four**
 
@@ -65,7 +65,7 @@ Non è paragonabile ad un componente riusabile perchè:
 
 ---
 
-## Pattern
+## Pattern (continua)
 
 due istanze di uno stesso pattern (ad esempio applicate a problemi diversi) tipicamente sono diverse proprio per la contestualizzazione in domini differenti.
 
@@ -85,7 +85,7 @@ due istanze di uno stesso pattern (ad esempio applicate a problemi diversi) tipi
 
 ---
 
-## Cosa fornisce un design pattern al progettista software?
+## Cosa fornisce un design pattern al progettista software? (continua)
 
 + Un supporto alla comunicazione delle caratteristiche del progetto
 + Un modo per progettare software con caratteristiche predefinite
@@ -123,7 +123,7 @@ gli aspetti chiave di una struttura comune di design che la rendono utile nel co
 
 ---
 
-## caratteristiche
+## caratteristiche (continua)
 
 Un Design Pattern identifica:
 
@@ -219,6 +219,36 @@ OMT = is an object modeling approach for software modeling and designing [link](
 + **Codice di esempio**: scritto in un linguaggio ad oggetti
 + **Usi noti**: esempi d'applicazione del pattern in sistemi reali
 + **Pattern correlati**: con quali pattern si dovrebbe usare?
+
+---
+
+## categorie di pattern
+
+Esistono diverse categorie di pattern, spesso sono divisi per funzione (purpose) e dominio (scope) del pattern
+
+---
+
+## funzione (purpose), ovvero cosa fa il pattern
+
++ **Creazionali**: forniscono meccanismi per la creazione di oggetti
++ **Strutturali**: gestiscono la separazione tra interfaccia e implementazione e le modalità di composizione tra oggetti
++ **Comportamentali**: consentono la modifica del comportamento degli oggetti minimizzando la necessità di cambiare il codice
+
+---
+
+## dominio (scope), indica se il pattern si applica a classi o oggetti
+
++ **Class pattern**: si focalizzano su relazioni fra classi e sottoclassi. Tipicamente si riferiscono a situazioni statiche, ovvero riguadano il compile-time
++ **Object pattern**: si focalizzano su oggetti (istanze) e le loro relazioni. Tipicamente si riferiscono a situazioni dinamiche (run-rime).
+
+Note:
+la differenza è comunque molto sfumata
+
+---
+
+## categoria creational
+
+la vedrete domani :smile:
 
 ---
 
