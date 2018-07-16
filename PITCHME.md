@@ -16,14 +16,17 @@ https://github.com/simon387/structural-patterns-presentation
 
 ---
 
+# riferimenti
+
++ Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, “Design Patterns: Elements of Reusable Object Oriented Software“.
++ https://www.docenti.unina.it/webdocenti-be/allegati/materiale-didattico/98381
++ https://www.journaldev.com
++ wikipedia
++ stackoverflow
+
+---
+
 # iniziamo!
 
 ---
 
-# test code 
-
-```java 
-public static void main (String[]args) {
-	System.out.println();
-}
-```
