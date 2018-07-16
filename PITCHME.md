@@ -25,6 +25,8 @@ Simone Celia, FullStack Java Developer, lavoro nell'ambito della consulenza info
 + Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, “Design Patterns: Elements of Reusable Object Oriented Software“.
 + [https://www.docenti.unina.it/webdocenti-be/allegati/materiale-didattico/98381](https://www.docenti.unina.it/webdocenti-be/allegati/materiale-didattico/98381)
 + [https://www.journaldev.com](https://www.journaldev.com)
+Note:
+https://www.journaldev.com/1827/java-design-patterns-example-tutorial
 + wikipedia
 + stackoverflow
 
@@ -252,3 +254,17 @@ la vedrete domani ¯\\_(ツ)_/¯
 
 ---
 
+## categoria structural
+
++ sono dedicati alla composizione di classi e oggetti per creare delle strutture più grandi
++ è possibile creare delle classi che ereditano da più classi per consentire di utilizzare proprietà di più superclassi indipendenti
++ ad esempio permettono di far funzionare insieme delle librerie indipendenti
+
+---
+
+## elenco pattern structural GoF
+
+|Design Pattern | Descrizione |
+| :-----------: | :---------- |
+
+---
