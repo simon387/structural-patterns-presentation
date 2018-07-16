@@ -4,19 +4,19 @@
 
 ---
 
-# chi sono
+## chi sono
 
 Simone Celia, lavoro nell'ambito della consulenza informatica da 5 anni, in Thinkopen da 2
 
 ---
 
-# dove trovare queste slide
+## dove trovare queste slide
 
 [https://github.com/simon387/structural-patterns-presentation](https://github.com/simon387/structural-patterns-presentation)
 
 ---
 
-# riferimenti
+## riferimenti
 
 + Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, “Design Patterns: Elements of Reusable Object Oriented Software“.
 + [https://www.docenti.unina.it/webdocenti-be/allegati/materiale-didattico/98381](https://www.docenti.unina.it/webdocenti-be/allegati/materiale-didattico/98381)
@@ -26,11 +26,11 @@ Simone Celia, lavoro nell'ambito della consulenza informatica da 5 anni, in Thin
 
 ---
 
-# iniziamo!
+## iniziamo!
 
 ---
 
-# un po' di storia
+## un po' di storia
 
 + Introdotti dall'architetto Christopher Alexander. Architetto edile, non software!
 
@@ -38,19 +38,19 @@ Simone Celia, lavoro nell'ambito della consulenza informatica da 5 anni, in Thin
 
 ---
 
-# un po' di storia
+## un po' di storia
 
 + Il principio è ugualmente valido, anche se riferito ad oggetti, classi ed interfacce piuttosto che ad elementi architettonici come muri, archi, pilastri, ecc... .
 
 ---
 
-# un po' di storia
+## un po' di storia
 
 + I design patterns hanno raggiunto molta popolarità nel mondo della **computer science** con il libro *Design Patterns: Elements of Reusable Object-Oriented Software* scritto dalla **Gang of Four**
 
 ---
 
-# Pattern
+## Pattern
 
 individua un'**IDEA**, uno schema **GENERALE E RIUSABILE**
 
@@ -61,13 +61,13 @@ Non è paragonabile ad un componente riusabile perchè:
 
 ---
 
-# Pattern
+## Pattern
 
 due istanze di uno stesso pattern (ad esempio applicate a problemi diversi) tipicamente sono diverse proprio per la contestualizzazione in domini differenti.
 
 ---
 
-# Scopo dei Patterns
+## Scopo dei Patterns
 
 + Catturare l'esperienza e la *saggezza* degli esperti
 + Evitare di reinventare ogni volta le stesse cose
@@ -89,25 +89,25 @@ due istanze di uno stesso pattern (ad esempio applicate a problemi diversi) tipi
 
 ---
 
-# Definizione
+## Definizione
 
 Ogni pattern descrive un problema specifico che ricorre più volte e descrive il nucleo della soluzione a quel problema, in modo da poter utilizzare tale soluzione milioni di volte.
 
 ---
 
-# Abbastanza astratti
+## Abbastanza astratti
 
 In modo da poter essere condivisi da progettisti con punti di vista diversi e che conoscono tecnologie e linguaggi diversi
 
 ---
 
-# non complessi né domain-specific
+## non complessi né domain-specific
 
 Non sono rivolti alla specifica applicazione ma riusabili in parti di applicazioni diverse
 
 ---
 
-# caratteristiche
+## caratteristiche
 
 Un Design Pattern
 
