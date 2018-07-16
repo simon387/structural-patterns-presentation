@@ -437,29 +437,27 @@ Se volessimo riempire tutto il disegno del diagramma diciamo di rosso, lo stesso
 
 Questo disegno è composto da differenti componenti, i quali hanno certe operazioni in comune.
 
-@fa[arrow-down]
+---
 
-+++
+## il Composite DP è composto dai seguenti oggetti:
 
-### il Composite DP è composto dai seguenti oggetti:
-
-#### Base Component
+### Base Component
 
 è l'interfaccia (o classe astratta) per tutti gli oggetti della composizione. Il client lo usa per lavorare con gli oggetti della composizione.
 
 ---
 
-### il Composite DP è composto dai seguenti oggetti:
+## il Composite DP è composto dai seguenti oggetti:
 
-#### Leaf
+### Leaf
 
 Definisce il comportamento degli elementi della composizione. E' il building block della composizione ed implementa il Base Component. Non deve avere references agli altri componenti.
 
 ---
 
-### il Composite DP è composto dai seguenti oggetti:
+## il Composite DP è composto dai seguenti oggetti:
 
-#### Composite
+### Composite
 
 Consiste di leaf ed implementa le operazioni in base component
 
