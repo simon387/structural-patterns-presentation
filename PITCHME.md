@@ -10,3 +10,13 @@ Simone Celia, lavoro nell'ambito della consulenza informatica da 5 anni, in Thin
 
 ---
 
+# dove trovare queste slide
+
+https://github.com/simon387/structural-patterns-presentation
+
+---
+
+# iniziamo!
+
+---
+
