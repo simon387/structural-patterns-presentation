@@ -332,3 +332,37 @@ Note:
 @[19-28](Using GitPitch code-presenting with (optional) annotations.)
 
 ---
+
+## Adapter: esempi nella JDK
+
++ java.util.Arrays#asList()
++ java.io.InputStreamReader(InputStream) (returns a Reader)
++ java.io.OutputStreamWriter(OutputStream) (returns a Writer)
+
+---
+
+## Bridge
+
+Quando abbiamo ereditarietà sia nelle interfacce che nelle implementazioni, il DP bridge è usato per disaccoppiare le interfacce dall'implementazione e per nascondere i dettagli dell'implementazione al client.
+
+---
+
+## Bridge secondo la GoF
+
+> "Decouple an abstraction from its implementation so that the two can vary independently"
+
+---
+
+## Bridge
+
+Capiamolo meglio con un esempio. Mettiamo di avere questa situazione:
+
+![](assets/images/Bridge-Interface-Hierarchy.png)
+
+@fa[arrow-down]
+
+Applicando il Bridge disaccoppiamo le interfacce dall'implementazione tramite l'uso della composizione.
+
+![](assets/images/bridge-design-pattern.png)
+
+---
