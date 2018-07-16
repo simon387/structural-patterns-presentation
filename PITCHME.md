@@ -300,13 +300,31 @@ Una batteria potrebbe avere bisogno di 3 Volt per caricarsi mentre la normale pr
 Quindi il carica batterie fa da *Adapter* tra la presa di corrente e la batteria.
 Note:
 abbiamo 2 classi, Volt che misura la tensione e socket che produce una tensione costante di 240v
+Volt
+Socket
+SocketAdapter
+SocketClassAdapterImpl
+AdapterPatternTest
 
 @fa[arrow-down]
 
-+++?code=StructuralPatterns/src/main/java/adapter/Volt.java&lang=java&title=Source: Java File
++++?code=StructuralPatterns/src/main/java/adapter/Volt.java&lang=java&title=Volt.java
+
 @fa[arrow-down]
 
-+++?code=StructuralPatterns/src/main/java/adapter/Volt.java&lang=java&title=Source: Java File
++++?code=StructuralPatterns/src/main/java/adapter/Socket.java&lang=java&title=Socket.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/adapter/SocketAdapter.java&lang=java&title=SocketAdapter.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/adapter/SocketClassAdapterImpl.java&lang=java&title=SocketClassAdapterImpl.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/adapter/AdapterPatternTest.java&lang=java&title=AdapterPatternTest.java
 
 Note:
 @[1,3-6](Present code found within any repo source file.)
