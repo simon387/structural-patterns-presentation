@@ -197,7 +197,7 @@ Esistono diverse tipologie di pattern, che si differenziano principalmente per l
 
 ## conseguenze
 
-+ le **conseguenze** portate dall'applicazione del pattern. Spesso sono tralasciate ma sono importanti per poter valutare i costi-benefici dell'utilizoo del pattern.
++ le **conseguenze** portate dall'applicazione del pattern. Spesso sono tralasciate ma sono importanti per poter valutare i costi-benefici dell'utilizzo del pattern.
 
 ---
 
@@ -209,11 +209,9 @@ Esistono diverse tipologie di pattern, che si differenziano principalmente per l
 + **Motivazione**: scenario che illustra un design problem
 + **Applicabilità**: situazioni in cui si applica il pattern
 + **Struttura**: rappresentazione delle classi in stile OMT
++ **Partecipanti**: classi e oggetti inclusi nel pattern
 Note:
 OMT = is an object modeling approach for software modeling and designing [link](https://en.wikipedia.org/wiki/Object-modeling_technique)
-
-+ **Partecipanti**: classi e oggetti inclusi nel pattern
-
 ---
 
 ## esempio descrizione DP (continua)
@@ -276,7 +274,7 @@ la vedrete domani ¯\\_(ツ)_/¯
 
 |DP | Descrizione |
 | :------------ | :---------- |
-| Composite     | Compone oggetti in strutture ad albero per implementare delle composizioni ricorsive|
+| composite     | Compone oggetti in strutture ad albero per implementare delle composizioni ricorsive|
 | Decorator     | Aggiunge nuove responsabilità ad un oggetto in modo dinamico, è alternativa alle sottoclassi per estendere le funzionalità|
 | Facade        | Provvede un'interfaccia unificata per le interfacce di un sottosistema in modo da rendere più facile il loro utilizzo|
 
@@ -418,13 +416,13 @@ BridgePatternTest
 
 ---
 
-## Composite
+## composite
 
 Quando dobbiamo creare una struttura in modo tale che gli oggetti di tale struttura debbano essere trattati allo stesso modo, possiamo applicare il DP composite.
 
 ---
 
-## Composite - esempio pratico
+## composite - esempio pratico
 
 Ad esempio un diagramma è un oggetto che consiste di altri oggetti come cerchi, linee, triangoli ecc... .
 
@@ -442,11 +440,11 @@ Questo disegno è composto da differenti componenti, i quali hanno certe operazi
 
 ---
 
-## il Composite DP è composto dai seguenti oggetti:
+## il composite DP è composto dai seguenti oggetti:
 
 + Base Component
 + Leaf
-+ Composite
++ composite
 
 ---
 
@@ -462,13 +460,13 @@ Definisce il comportamento degli elementi della composizione. E' il building blo
 
 ---
 
-## Composite
+## composite
 
 Consiste di leaf ed implementa le operazioni in base component
 
 ---
 
-## Composite - esempio Java
+## composite - esempio Java
 Note:
 Shape,
 Triangle,
@@ -498,13 +496,13 @@ TestCompositePattern
 
 ---
 
-## Composite UML
+## composite UML
 
 ![](assets/images/Composite-Pattern-java-450x354.png)
 
 ---
 
-## Composite - conclusioni
+## composite - conclusioni
 
 + dovrebbe essere utilizzato solo quando il gruppo di oggetti si deve comportare come se fosse una cosa sola
 + può essere usato per comporre strutture ad albero
@@ -513,11 +511,71 @@ TestCompositePattern
 
 +++
 
-java.awt.Container#add(Component) è un ottimo esempio di Composite, è usato moltissimo in Swing
+java.awt.Container#add(Component) è un ottimo esempio di composite, è usato moltissimo in Swing
 
 ---
 
 ## Decorator
+
+è usato per modificare le funzionalità di un oggetto a runtime.
+Allo stesso tempo le altre istanze della stessa classe non saranno affette da questa modifica
+
+@fa[arrow-down]
+
++++
+
+## Decorator
+
+Di solito usiamo l'ereditarietà o la composizione per estendere i comportamenti di un oggetto, ma questo viene fatto al momento della compilazione e va a coinvolgere tutti gli oggetti di una classe.
+
+@fa[arrow-down]
+
++++
+
+## Decorator
+
+Non possiamo aggiungere nessuna nuova funzionalità o rimuovere qualunque comportamento a runtime - questo è il momento in cui il design pattern *Decorator* ci viene in aiuto!
+
+@fa[arrow-down]
+
++++
+
+## Decorator
+
+Supponiamo di voler implementare diversi tipi di automobili; possiamo creare un'interfaccia *Car* per definire il metodo *assemble()* e poi possiamo avere una *Basic car* che potrà essere estesa in auto sportiva e auto di lusso.
+
+@fa[arrow-down]
+
++++
+
+## Decorator
+
+
+![](assets/images/inheritance-hierarchy.png)
+
+@fa[arrow-down]
+
++++
+
+# Decorator
+
+Ma se vogliamo avere a runtime un'auto che è sia sportiva che di lusso, l'implementazione diventa complessa, specie se vogliamo specificare altre cose. Se avessimo 10 tipi diversi di macchine, la logica d'implementazione e composizione diventerebbe impossibile da gestire.
+
+@fa[arrow-down]
+
++++
+
+# Decorator
+
+![](assets/images/decorator-pattern.png)
+
+@fa[arrow-down]
+
++++
+
+# Decorator
+
+Struttura del decorator:
 
 ---
 
