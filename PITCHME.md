@@ -16,6 +16,8 @@ Simone Celia, FullStack Java Developer, lavoro nell'ambito della consulenza info
 
 ## dove trovare queste slide
 
+(e relativo codice eseguibile)
+
 [https://github.com/simon387/structural-patterns-presentation](https://github.com/simon387/structural-patterns-presentation)
 
 ---
