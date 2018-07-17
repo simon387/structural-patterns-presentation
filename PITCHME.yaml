@@ -3,4 +3,4 @@ logo : assets/images/Logo_bianco_thinkopen_PNG_height55.png
 code-line-numbers : true
 footnote : "Thinkopen - The Fastest Way From Idea To Business"
 #layout : center-right
-layout : center-left
+#layout : center-left
