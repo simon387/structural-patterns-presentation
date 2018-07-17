@@ -557,7 +557,7 @@ Supponiamo di voler implementare diversi tipi di automobili; possiamo creare un'
 
 +++
 
-# Decorator
+## Decorator
 
 Ma se vogliamo avere a runtime un'auto che è sia sportiva che di lusso, l'implementazione diventa complessa, specie se vogliamo specificare altre cose. Se avessimo 10 tipi diversi di macchine, la logica d'implementazione e composizione diventerebbe impossibile da gestire.
 
@@ -565,7 +565,7 @@ Ma se vogliamo avere a runtime un'auto che è sia sportiva che di lusso, l'imple
 
 +++
 
-# Decorator
+## Decorator
 
 ![](assets/images/decorator-pattern.png)
 
@@ -573,9 +573,85 @@ Ma se vogliamo avere a runtime un'auto che è sia sportiva che di lusso, l'imple
 
 +++
 
-# Decorator
+## Decorator
 
 Struttura del decorator:
+
+1. component interface
+2. component implementation
+3. decorator
+4. concrete decorator
+
+@fa[arrow-down]
+
++++
+
+## component interface
+
+è l'interfaccia o la *classe atratta* che definisce i metodi che saranno implementati. Nel nostro caso *Car* sarà il nostro component interface
+
+@fa[arrow-down]
+
++++
+
+## component impementation
+
+è l'implementazione base dell'interfaccia definita prima: *BasicCar*
+
+@fa[arrow-down]
+
++++
+
+## decorator
+
+la classe *Decorator* implementa la component interface ed ha una relazione *HAS-A* sempre con la component inrerface. La variabile del componente sarà accessibile ai figli.
+
+@fa[arrow-down]
+
+Note:
+Car,
+BasicCar,
+CarDecorator,
+SportsCar,
+LuxuryCar,
+DecoratorPatternTest
++++
+
+## concrete decorators
+
+Estendono il decorator e ne modificano il comportamento.
+
++++?code=StructuralPatterns/src/main/java/decorator/Car.java&lang=java&title=Car.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/decorator/BasicCar.java&lang=java&title=BasicCar.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/decorator/CarDecorator.java&lang=java&title=CarDecorator.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/decorator/SportsCar.java&lang=java&title=SportsCar.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/decorator/LuxuryCar.java&lang=java&title=LuxuryCar.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/decorator/DecoratorPatternTest.java&lang=java&title=DecoratorPatternTest.java
+
+@fa[arrow-down]
+
++++
+
+## Decorator - punti imporanti
+
++ facile da mantenere ed estendere
++ ha come svantaggio l'uso di molti oggetti simili (decorators)
++ è usato molto nelle classi **JAVA OP**, come la **FileReader** e la **BufferedReader**
 
 ---
 
