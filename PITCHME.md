@@ -798,5 +798,19 @@ Il package Java RMI usa molto il pattern proxy
 
 ## Flyweight
 
+Viene utilizzato quando ci sono da creare tanti oggetti di una classe. Siccome ogni oggetto consuma memoria, che è cruciale ad esempio per dispositivi mobili o embedded, il design patter Flyweight ci aiuta a ridurre il carico sulla memoria condividendo gli oggetti
+
+@fa[arrow-down]
+
++++
+
+## Flyweight
+
+prima di utilizzare il DP Flyweight ci sono da considerare i seguenti fattori:
+
++ il numero di oggetti creati dall'applicazione potrebbe essere enorme
++ la creazione di oggetti in memoria potrebbe essere molto time consuming
++ le proprietà degli oggetti possono essere divise in intrinsiche ed estrinseche (quest'ultime sono definitive dal programma client)
+
 ---
 
