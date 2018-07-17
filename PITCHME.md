@@ -651,11 +651,57 @@ Estendono il decorator e ne modificano il comportamento.
 
 + facile da mantenere ed estendere
 + ha come svantaggio l'uso di molti oggetti simili (decorators)
-+ è usato molto nelle classi **JAVA OP**, come la **FileReader** e la **BufferedReader**
++ è usato molto nelle classi **JAVA IO**, come la **FileReader** e la **BufferedReader**
 
 ---
 
 ## Facade
+
+Fornisce un'interfaccia unificata ad un set di interfacce di un sottosistema. Rende il sottosistema più facile da utilizzare.
+
+@fa[arrow-down]
+
++++
+
+## Facade
+
+Supponiamo di avere un'applicazione con una serie di interfacce per usare database di tipo Mysql/Oracle e che genera differenti tipi di report, in HTML, PDF, ecc... 
+
+@fa[arrow-down]
+
++++
+
+## Facade
+
+quindi avremo differenti set di interfacce che lavorano con differenti tipi di database. Adesso un'applicazione potrebbe utilizzare queste interfacce per accedere ai database e generare i report.
+
+@fa[arrow-down]
+
++++
+
+## Facade
+
+Ma quando la complessità aumenta, o i nomi delle interfacce iniziamo a diventare poco chiari, l'applicazione inizierà ad essere difficile da mantenere
+
+@fa[arrow-down]
+
++++
+
+## Facade
+
+Quindi per aiutare l'applicazione possiamo applicare il pattern Facade per scrivere un'interfaccia *wrapper*
+
+@fa[arrow-down]
+
++++
+
+## Facade - punti importanti
+
+1. è un helper, non nasconde al sottosistema le interfacce
+2. può essere applicato in qualsiasi momento dello sviluppo
+3. le interfacce del sottosistema non sono "a conoscenza" del facade e non dovrebbero avere nessun reference alla sua interfaccia
+4. dovrebbe essere applicato ad interfacce simili, per aiutare lo sviluppo
+5. per fornire migliori interfacce è ideale l'utilizzo con il *Factory pattern"
 
 ---
 
