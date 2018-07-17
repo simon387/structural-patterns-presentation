@@ -699,19 +699,19 @@ OracleHelper,
 HelperFacade,
 FacadePatternTest
 
-+++?code=StructuralPatterns/src/main/java/facede/MySqlHelper.java&lang=java&title=MySqlHelper.java
++++?code=StructuralPatterns/src/main/java/facade/MySqlHelper.java&lang=java&title=MySqlHelper.java
 
 @fa[arrow-down]
 
-+++?code=StructuralPatterns/src/main/java/facede/OracleHelper.java&lang=java&title=OracleHelper.java
++++?code=StructuralPatterns/src/main/java/facade/OracleHelper.java&lang=java&title=OracleHelper.java
 
 @fa[arrow-down]
 
-+++?code=StructuralPatterns/src/main/java/facede/HelperFacade.java&lang=java&title=HelperFacade.java
++++?code=StructuralPatterns/src/main/java/facade/HelperFacade.java&lang=java&title=HelperFacade.java
 
 @fa[arrow-down]
 
-+++?code=StructuralPatterns/src/main/java/facede/FacadePatternTest.java&lang=java&title=FacadePatternTest.java
++++?code=StructuralPatterns/src/main/java/facade/FacadePatternTest.java&lang=java&title=FacadePatternTest.java
 
 @fa[arrow-down]
 
@@ -723,11 +723,76 @@ FacadePatternTest
 2. può essere applicato in qualsiasi momento dello sviluppo
 3. le interfacce del sottosistema non sono "a conoscenza" del facade e non dovrebbero avere nessun reference alla sua interfaccia
 4. dovrebbe essere applicato ad interfacce simili, per aiutare lo sviluppo
-5. per fornire interfacce migliori è ideale l'utilizzo con il *Factory pattern"
+5. per fornire interfacce migliori è ideale l'utilizzo con il *Factory pattern*
 
 ---
 
 ## Proxy
+
+definione della **GoF**
+
+> "Provide a surrogate or placeholder for another object o control access on it"
+
+@fa[arrow-down]
+
++++
+
+## Proxy
+
+la definizione è molto semplice, il Proxy è utilizzato quando vogliamo fornire un accesso controllato ad una funzionalità
+
+@fa[arrow-down]
+
++++
+
+## Proxy
+
+diciamo che abbiamo una classe che può eseguire alcuni comandi in un sistema. Se la usiamo noi non ci sono problemi, ma se dovessimo delegarne l'uso ad un altro client ci potrebbero essere seri problemi di sicurezza
+
+@fa[arrow-down]
+
++++
+
+## Proxy
+
+ed ecco che una classe che fa da Proxy ci può aiutare ad avere un accesso controllato al programma.
+
+@fa[arrow-down]
+
++++
+
+## Proxy
+
+in questo esempio di Proxy abbiamo
+
++ un'interfaccia per eseguire il comando
++ un'implementazione a questa interfaccia
++ una classe di proxy che limita i comandi ad utenti non Admin
+
+@fa[arrow-down]
+
+Note:
+CommandExecutor,
+CommandExecutorImpl,
+CommandExecutorProxy
+
++++?code=StructuralPatterns/src/main/java/proxy/CommandExecutor.java&lang=java&title=CommandExecutor.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/proxy/CommandExecutorImpl.java&lang=java&title=CommandExecutorImpl.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/proxy/CommandExecutorProxy.java&lang=java&title=CommandExecutorProxy.java
+
+@fa[arrow-down]
+
++++
+
+## Facade
+
+Il package Java RMI usa molto il pattern proxy
 
 ---
 
