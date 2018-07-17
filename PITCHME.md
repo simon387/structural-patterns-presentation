@@ -793,7 +793,8 @@ CommandExecutorProxy
 ## Facade
 
 Il package Java RMI usa molto il pattern proxy
-
+Note:
+remote method invocation
 ---
 
 ## Flyweight
@@ -811,6 +812,28 @@ prima di utilizzare il DP Flyweight ci sono da considerare i seguenti fattori:
 + il numero di oggetti creati dall'applicazione potrebbe essere enorme
 + la creazione di oggetti in memoria potrebbe essere molto time consuming
 + le proprietà degli oggetti possono essere divise in intrinsiche ed estrinseche (quest'ultime sono definitive dal programma client)
+
+@fa[arrow-down]
+
++++
+
+## Flyweight
+
+per applicare questo pattern dobbiamo dividere le proprietà degli oggetti in intrinsiche ed estrinseche; le prime rendono l'oggetto unico, mentre le estrinseche sono impostate dal client code ed usate per differenti operazioni; ad esempio un oggetto Cerchio ha come proprietà estrinseca quella del colore o della larghezza.
+
+@fa[arrow-down]
+
++++
+
+## Flyweight
+
+inoltre ci serve creare un **Flyweight factory** che ritorni gli shared objects. Ad esempio dobbiamo creare un disegno con linee ed ovali; quindi avremo un interfaccia *Shape* e le implementazioni *Line* e *Oval*. La classe Oval avrà proprietà intrinseche per determinare se riempire l'Ovale con un dato colore o meno, mentre Line non avrà alcuna proprietà intrinseca.
+
+@fa[arrow-down]
+
++++
+
+
 
 ---
 
