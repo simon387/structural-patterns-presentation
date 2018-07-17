@@ -830,10 +830,50 @@ per applicare questo pattern dobbiamo dividere le proprietà degli oggetti in in
 inoltre ci serve creare un **Flyweight factory** che ritorni gli shared objects. Ad esempio dobbiamo creare un disegno con linee ed ovali; quindi avremo un interfaccia *Shape* e le implementazioni *Line* e *Oval*. La classe Oval avrà proprietà intrinseche per determinare se riempire l'Ovale con un dato colore o meno, mentre Line non avrà alcuna proprietà intrinseca.
 
 @fa[arrow-down]
+Note:
+Shape
+Line
+Oval
+ShapeFactory
+DrawingClient
++++
+
++++?code=StructuralPatterns/src/main/java/flyweight/Shape.java&lang=java&title=Shape.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/flyweight/Line.java&lang=java&title=Line.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/flyweight/Oval.java&lang=java&title=Oval.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/flyweight/ShapeFactory.java&lang=java&title=ShapeFactory.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/flyweight/DrawingClient.java&lang=java&title=DrawingClient.java
+
+@fa[arrow-down]
 
 +++
 
+## Flyweight - esempi nella JDK
 
+Tutti i metodi ```valueOf()``` delle **wrapper classes** usano oggetti cached usando Flyweight DP. L'esempio più noto è nella classe String con l'implementazione **String Pool**.
+
+@fa[arrow-down]
+
++++
+
+## Flyweight - punti importanti
+
++ nel nostro esempio non obblighiamo il client ad utilizzare il Flyweight, ma volendo si potrebbe fare, sono scelte di design
++ introduce complessità nei progetti, bisogna valutarne il trade-off a seconda dei progetti
++ l'implementazione del Flyweight non è utile quando le proprietà intrinseche sono troppe
 
 ---
 
+# The End - Grazie della pazienza!
