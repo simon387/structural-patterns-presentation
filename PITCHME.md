@@ -23,13 +23,15 @@ Simone Celia, FullStack Java Developer, lavoro nell'ambito della consulenza info
 ---
 
 ## riferimenti
-Note:
-https://www.journaldev.com/1827/java-design-patterns-example-tutorial
+
 + Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, “Design Patterns: Elements of Reusable Object Oriented Software“.
 + [https://www.docenti.unina.it/webdocenti-be/allegati/materiale-didattico/98381](https://www.docenti.unina.it/webdocenti-be/allegati/materiale-didattico/98381)
 + [https://www.journaldev.com](https://www.journaldev.com)
 + wikipedia
 + stackoverflow
+
+Note:
+https://www.journaldev.com/1827/java-design-patterns-example-tutorial
 
 ---
 
