@@ -693,6 +693,28 @@ Quindi per aiutare l'applicazione possiamo applicare il pattern Facade per scriv
 
 @fa[arrow-down]
 
+Note:
+MySqlHelper,
+OracleHelper,
+HelperFacade,
+FacadePatternTest
+
++++?code=StructuralPatterns/src/main/java/facede/MySqlHelper.java&lang=java&title=MySqlHelper.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/facede/OracleHelper.java&lang=java&title=OracleHelper.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/facede/HelperFacade.java&lang=java&title=HelperFacade.java
+
+@fa[arrow-down]
+
++++?code=StructuralPatterns/src/main/java/facede/FacadePatternTest.java&lang=java&title=FacadePatternTest.java
+
+@fa[arrow-down]
+
 +++
 
 ## Facade - punti importanti
@@ -701,7 +723,7 @@ Quindi per aiutare l'applicazione possiamo applicare il pattern Facade per scriv
 2. può essere applicato in qualsiasi momento dello sviluppo
 3. le interfacce del sottosistema non sono "a conoscenza" del facade e non dovrebbero avere nessun reference alla sua interfaccia
 4. dovrebbe essere applicato ad interfacce simili, per aiutare lo sviluppo
-5. per fornire migliori interfacce è ideale l'utilizzo con il *Factory pattern"
+5. per fornire interfacce migliori è ideale l'utilizzo con il *Factory pattern"
 
 ---
 
