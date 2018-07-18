@@ -811,15 +811,9 @@ prima di utilizzare il DP Flyweight ci sono da considerare i seguenti fattori:
 
 + il numero di oggetti creati dall'applicazione potrebbe essere enorme
 + la creazione di oggetti in memoria potrebbe essere molto time consuming
-+ le proprietà degli oggetti possono essere divise in intrinsiche ed estrinseche (quest'ultime sono definitive dal programma client)
-
-@fa[arrow-down]
-
-+++
-
-## Flyweight
-
-per applicare questo pattern dobbiamo dividere le proprietà degli oggetti in intrinsiche ed estrinseche; le prime rendono l'oggetto unico, mentre le estrinseche sono impostate dal client code ed usate per differenti operazioni; ad esempio un oggetto Cerchio ha come proprietà estrinseca quella del colore o della larghezza.
++ le proprietà degli oggetti possono essere separate in una parte variabile e da una che può essere riutilizzata, in modo da condividere quest'ultima fra differenti istanze
+Note:
++ le proprietà degli oggetti possono essere divise in intrinsiche ed estrinseche (quest'ultime sono definite dal programma client)
 
 @fa[arrow-down]
 
@@ -872,8 +866,12 @@ Tutti i metodi ```valueOf()``` delle **wrapper classes** usano oggetti cached us
 
 + nel nostro esempio non obblighiamo il client ad utilizzare il Flyweight, ma volendo si potrebbe fare, sono scelte di design
 + introduce complessità nei progetti, bisogna valutarne il trade-off a seconda dei progetti
+Note:
 + l'implementazione del Flyweight non è utile quando le proprietà intrinseche sono troppe
+esempio del word processor
 
 ---
 
-# The End - Grazie della pazienza!
+# The End
+
+## Grazie della pazienza!
