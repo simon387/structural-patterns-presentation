@@ -274,8 +274,8 @@ la vedrete domani ¯\\_(ツ)_/¯
 
 |DP | Descrizione |
 | :------------ | :---------- |
-| composite     | Compone oggetti in strutture ad albero per implementare delle composizioni ricorsive|
-| Decorator     | Aggiunge nuove responsabilità ad un oggetto in modo dinamico, è alternativa alle sottoclassi per estendere le funzionalità|
+| Composite     | Compone oggetti in strutture ad albero per implementare delle composizioni ricorsive|
+| Decorator     | Aggiunge nuove responsabilità ad un oggetto in modo dinamico, è alternativa alle sottoclassi per estenderne le funzionalità|
 | Facade        | Provvede un'interfaccia unificata per le interfacce di un sottosistema in modo da rendere più facile il loro utilizzo|
 
 ---
@@ -326,11 +326,6 @@ AdapterPatternTest
 @fa[arrow-down]
 
 +++?code=StructuralPatterns/src/main/java/adapter/AdapterPatternTest.java&lang=java&title=AdapterPatternTest.java
-
-Note:
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
 
 ---
 
