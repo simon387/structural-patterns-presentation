@@ -439,7 +439,7 @@ Questo disegno è composto da differenti componenti, i quali hanno certe operazi
 
 + Base Component
 + Leaf
-+ composite
++ Composite
 
 ---
 
@@ -457,7 +457,7 @@ Definisce il comportamento degli elementi della composizione. E' il building blo
 
 ## composite
 
-Consiste di leaf ed implementa le operazioni in base component
+Definisce il comportamento dei componenti con i figli(leaf), memorizza i componenti figli, implementa le operazione correlate ai figli definite dall’interfaccia Component
 
 ---
 
@@ -506,6 +506,8 @@ TestCompositePattern
 
 +++
 
+## Composite dentro la JVM
+
 java.awt.Container#add(Component) è un ottimo esempio di composite, è usato moltissimo in Swing
 
 ---
@@ -529,7 +531,7 @@ Di solito usiamo l'ereditarietà o la composizione per estendere i comportamenti
 
 ## Decorator
 
-Non possiamo aggiungere nessuna nuova funzionalità o rimuovere qualunque comportamento a runtime - questo è il momento in cui il design pattern *Decorator* ci viene in aiuto!
+Non possiamo aggiungere nessuna nuova funzionalità o rimuovere un comportamento a runtime - questo è il momento in cui il design pattern *Decorator* ci viene in aiuto!
 
 @fa[arrow-down]
 
@@ -599,7 +601,7 @@ Struttura del decorator:
 
 ## decorator
 
-la classe *Decorator* implementa la component interface ed ha una relazione *HAS-A* sempre con la component inrerface. La variabile del componente sarà accessibile ai figli.
+la classe *Decorator* implementa la component interface ed ha una relazione *HAS-A* sempre con la component inrerface. La variabile del component sarà accessibile ai figli.
 
 @fa[arrow-down]
 
@@ -716,7 +718,7 @@ FacadePatternTest
 
 1. è un helper, non nasconde al sottosistema le interfacce
 2. può essere applicato in qualsiasi momento dello sviluppo
-3. le interfacce del sottosistema non sono "a conoscenza" del facade e non dovrebbero avere nessun reference alla sua interfaccia
+3. le interfacce del sottosistema non sono a conoscenza del facade e non dovrebbero avere nessun reference alla sua interfaccia
 4. dovrebbe essere applicato ad interfacce simili, per aiutare lo sviluppo
 5. per fornire interfacce migliori è ideale l'utilizzo con il *Factory pattern*
 
@@ -724,7 +726,7 @@ FacadePatternTest
 
 ## Proxy
 
-definione della **GoF**
+definione della **GoF**:
 
 > "Provide a surrogate or placeholder for another object o control access on it"
 
@@ -758,7 +760,7 @@ ed ecco che una classe che fa da Proxy ci può aiutare ad avere un accesso contr
 
 ## Proxy
 
-in questo esempio di Proxy abbiamo
+in questo esempio di Proxy abbiamo:
 
 + un'interfaccia per eseguire il comando
 + un'implementazione a questa interfaccia
@@ -785,7 +787,7 @@ CommandExecutorProxy
 
 +++
 
-## Facade
+## Proxy
 
 Il package Java RMI usa molto il pattern proxy
 Note:
@@ -816,7 +818,13 @@ Note:
 
 ## Flyweight
 
-inoltre ci serve creare un **Flyweight factory** che ritorni gli shared objects. Ad esempio dobbiamo creare un disegno con linee ed ovali; quindi avremo un interfaccia *Shape* e le implementazioni *Line* e *Oval*. La classe Oval avrà proprietà intrinseche per determinare se riempire l'Ovale con un dato colore o meno, mentre Line non avrà alcuna proprietà intrinseca.
+inoltre ci serve creare un **Flyweight factory** che ritorni gli shared objects.
+
+@fa[arrow-down]
+
++++
+
+Ad esempio dobbiamo creare un disegno con linee ed ovali; quindi avremo un interfaccia *Shape* e le implementazioni *Line* e *Oval*. La classe Oval avrà proprietà intrinseche per determinare se riempire l'Ovale con un dato colore o meno, mentre Line non avrà alcuna proprietà intrinseca.
 
 @fa[arrow-down]
 Note:
@@ -859,7 +867,7 @@ Tutti i metodi ```valueOf()``` delle **wrapper classes** usano oggetti cached us
 ## Flyweight - punti importanti
 
 + nel nostro esempio non obblighiamo il client ad utilizzare il Flyweight, ma volendo si potrebbe fare, sono scelte di design
-+ introduce complessità nei progetti, bisogna valutarne il trade-off a seconda dei progetti
++ introduce complessità nei progetti, bisogna valutarne il trade-off a seconda dei casi
 Note:
 + l'implementazione del Flyweight non è utile quando le proprietà intrinseche sono troppe
 esempio del word processor
