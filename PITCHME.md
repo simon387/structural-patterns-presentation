@@ -830,7 +830,6 @@ Line
 Oval
 ShapeFactory
 DrawingClient
-+++
 
 +++?code=StructuralPatterns/src/main/java/flyweight/Shape.java&lang=java&title=Shape.java
 
