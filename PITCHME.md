@@ -1,6 +1,6 @@
 # design patterns strutturali
 
-Thinkopen Academy 2018-07-19
++ Thinkopen Academy 2018-07-19
 
 Note:
 Remember to explain why it's for everyone: no sign-up, nothing to install.
