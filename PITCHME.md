@@ -601,7 +601,7 @@ Struttura del decorator:
 
 ## decorator
 
-la classe *Decorator* implementa la component interface ed ha una relazione *HAS-A* sempre con la component inrerface. La variabile del component sarà accessibile ai figli.
+la classe *Decorator* implementa la component interface ed ha una relazione *HAS-A* sempre con la component interface. La variabile del component sarà accessibile ai figli.
 
 @fa[arrow-down]
 
