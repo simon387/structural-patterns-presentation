@@ -728,7 +728,7 @@ FacadePatternTest
 
 definione della **GoF**:
 
-> "Provide a surrogate or placeholder for another object o control access on it"
+> "Provide a surrogate or placeholder for another object to control access on it"
 
 @fa[arrow-down]
 
