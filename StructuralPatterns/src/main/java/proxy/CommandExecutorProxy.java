@@ -17,7 +17,10 @@ public class CommandExecutorProxy implements CommandExecutor {
 		if (isAdmin) {
 			executor.runCommand(cmd);
 		} else {
-			if (cmd.trim().startsWith("rm")) {
+			if (cmd.trim().startsWith("rm")
+					||
+				cmd.trim().startsWith("format")
+					) {
 				throw new Exception("rm command is not allowed for non-admin users.");
 			} else {
 				executor.runCommand(cmd);
