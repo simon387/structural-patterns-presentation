@@ -19,7 +19,7 @@ public class CommandExecutorProxy implements CommandExecutor {
 		} else {
 			if (cmd.trim().startsWith("rm")
 					||
-				cmd.trim().startsWith("format")
+				cmd.trim().startsWith("cmd.exe /c format")
 					) {
 				throw new Exception("rm command is not allowed for non-admin users.");
 			} else {
