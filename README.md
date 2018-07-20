@@ -10,4 +10,4 @@ you can see rendered slides [here](https://gitpitch.com/simon387/structural-patt
 
 ## pdf example
 
-you can download an example pdf [here](https://github.com/simon387/structural-patterns-presentation/blob/master/Design%20Patterns%20-%20Structural%20Patterns.pdf)
+you can download an example pdf [here](https://github.com/simon387/structural-patterns-presentation/blob/master/doc/Design%20Patterns%20-%20Structural%20Patterns.pdf)
