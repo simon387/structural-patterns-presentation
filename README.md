@@ -6,7 +6,7 @@ Just GitHub + Markdown + yaml
 
 ## preview
 
-you can see rendered slides [here](https://gitpitch.com/simon387/structural-patterns-presentation/master?grs=github)
+you can see rendered slides [here](https://gitpitch.com/simon387/structural-patterns-presentation/master?grs=github&t=moon#/)
 
 ## pdf example
 
